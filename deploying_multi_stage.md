@@ -312,7 +312,8 @@ After creating a sls create_domain.
 install the serverless-domain-manager plugin in each service.
 
 plugins:
-  - serverless-domain-manager
+  
+  serverless-domain-manager
 
 custom:
   
