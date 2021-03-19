@@ -5,6 +5,8 @@
 ## Multi stage environment set up 
 ## Certification and Registration of the service in AWS 
 
+### Basic Overview : 
+
 - Application was designed defining multiple  micro services strictly considering 12 factor app for  truly enabling the agile.
 - Scalable serverless  API was build and hosted  using Amazon API gateway service.
 - Accessed the stored data using DynamoDB and served static content using S3 and Cloudfront AWS services.
