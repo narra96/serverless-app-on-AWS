@@ -37,7 +37,7 @@ and then returns mock responce from lambda function and test again using POSTMAN
 **Step-4 :** Lambda is connected to DynamoDB and test the API , now checks GET is working weither the data from DynamoDB is acquired or not. 
 It is first API GET and later it is repeated for POST 
 
-**Step-4 :** Once these three services are ready , now html file created is placed in AWS S3 which is connected to API Gateway.
+**Step-5 :** Once these three services are ready , now html file created is placed in AWS S3 which is connected to API Gateway.
 This time instead of using POSTMAN here SUBMIT button is used and get the employee details. 
 
 ## Prerequisite : 
@@ -185,17 +185,3 @@ In this case Lambda function is expecting EmailID alone and user is sending the 
 }
 
  >ACTION > deploy
-
-
- 
-
-
-
-
-
-
-
-
-## Future Scope
-
-
