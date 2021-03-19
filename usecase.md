@@ -8,7 +8,7 @@ wants to test it for the first time.
 
  The client application would contact its back-end as follows:
    
- 1. The user opens the homepage of the application, which displays the latest jobs. The jobs component is served by two replicas behind a load balancer.
+    1. The user opens the homepage of the application, which displays the latest jobs. The jobs component is served by two replicas behind a load balancer.
 
     2. The user needs to search for a suitable job. Only registered users can do that, so the jobs component redirects the client to the registration component.
 
